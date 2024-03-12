@@ -1,0 +1,70 @@
+:root{
+--darker-color: rgb(158, 120, 23);
+
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(243, 243, 183);
+}
+
+#app{
+    height: 750px;
+    width:300vh;
+    border: 1px solid var(--darker-color);
+    background-color: rgb(207, 205, 205);
+
+}
+
+#findThisBox{
+position: absolute;
+
+
+}
+
+#header{
+    position: absolute;
+    user-select: none;
+    opacity: 82%;
+    top: 87lvh;
+}
+
+#hotOrCold{
+    position: relative;
+    height: 100px;
+    width: 300px;
+    right: 400px;
+    bottom: 45px;
+}
+
+#startGame{
+    position: absolute;
+    user-select: none;
+    opacity: 82%;
+    top: 95lvh;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    border: 1px black dashed;
+    background-color: rgb(41, 146, 41);
+    font-size: large;
+}
+
+button:active{
+    transform: scale(0.98);
+    box-shadow: inset 2px 5px 5px;
+}
+
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: goldenrod;
+}
+.red{
+    background-color: darkred;
+}
