@@ -13,8 +13,8 @@ let boxColor = 'red';
 
 let newBtn = document.createElement('button');
 newBtn.id = 'startGame';
-newBtn.textContent = 'Start';
-newBtn.onclick = startGame;
+newBtn.textContent = 'Next Round';
+newBtn.onclick = restartGame;
 let newDiv = document.createElement('div');
 newDiv.id = 'header';
 let mousePosTimeout;
@@ -47,7 +47,7 @@ function updateGameView(){
 
 
 
-function startGame(){
+function restartGame(){
     if(boxFound){
     randomBoxPosY();
     randomBoxPosX();
