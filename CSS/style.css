@@ -51,7 +51,7 @@ position: absolute;
     color: rgb(0, 0, 0);
     border: 1px black dashed;
     background-color: rgb(41, 146, 41);
-    font-size: large;
+    font-size: normal;
 }
 
 button:active{
