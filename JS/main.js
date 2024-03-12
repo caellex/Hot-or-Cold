@@ -42,11 +42,6 @@ function insertGame(){
 return `<div id="findThisBox" style="width: 30px; height: 30px; background-color: ${boxColor};left: ${boxX}px; top: ${boxY}px;"></div>`;
 }
 
-function updateGameView(){
-}
-
-
-
 function restartGame(){
     if(boxFound){
     randomBoxPosY();
@@ -110,7 +105,7 @@ function hotOrCold(){
         document.getElementById('hotOrCold').className = "orange";
     } else if (clientX >= redrange && clientX <= boxX - redrange && clientY >= boxY && clientY <= boxY + range) {
         
-        
+        // Ja jeg lasta opp uferdig, hvis du ikke forstår funksjonen XD
         document.getElementById('hotOrCold').className = "";
         document.getElementById('hotOrCold').className = "red";
     }
